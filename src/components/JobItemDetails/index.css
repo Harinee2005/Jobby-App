@@ -1,0 +1,130 @@
+.loader-container-job-item-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.jobitem-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.job-card-container {
+  margin: 30px;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hyper-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.hyper-link-icon {
+  margin-left: 5px;
+}
+
+.title {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.para {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-cont {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.skills-img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.life-at-company-img {
+  width: 100%;
+}
+
+.similar-jobs-container {
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.similar-job-card {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.similar-jobs {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    margin: 50px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .skill-cont {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  .skills-img {
+    width: 60px;
+    margin-right: 20px;
+  }
+  .life-at-company-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .life-at-company-details {
+    width: 70%;
+  }
+  .life-at-company-img {
+    width: 300px;
+    height: 300px;
+  }
+  .similar-jobs-container {
+    margin-left: 30px;
+  }
+  .similar-job-card {
+    width: 30%;
+    margin-right: 20px;
+  }
+  .similar-jobs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
