@@ -146,20 +146,6 @@
 
 ---
 
-## **Data Structures**
-
-### `employmentTypesList`
-- Contains a list of employment types:
-  - **Key**: `employmentTypeId` (String)
-  - **Key**: `label` (String)
-
-### `salaryRangesList`
-- Contains a list of salary ranges:
-  - **Key**: `salaryRangeId` (String)
-  - **Key**: `label` (String)
-
----
-
 ## **API Requests & Responses**
 
 ### **Login API**
